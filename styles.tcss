@@ -1,0 +1,102 @@
+Screen {
+    background: #462C7D;
+    box-align: center middle;
+}
+
+Container {
+    width: 70;
+    height: auto;
+    background: #831C91;
+    padding: 1 2;
+}
+
+#title {
+    width: 100%;
+    height: 5;
+    -ms-ime-align: center middle;
+    color: #FF70BF;
+    font-style: bold;
+}
+
+#length-label {
+    color: #FF70BF;
+    font-style: bold;
+    margin: 1 0;
+}
+
+Input {
+    background: #462C7D;
+    color: #FF70BF;
+    border: none;
+    height: 3;
+    padding: 1 1;
+    margin-top: 1;
+}
+
+#length {
+    margin-bottom: 2;
+}
+
+PasswordCheckbox {
+    width: 100%;
+    height: 3;
+    color: white;
+    background: #462C7D;
+    padding: 0 1;
+    margin-bottom: 1;
+    -ms-ime-align: left middle;
+    border: none;
+}
+
+PasswordCheckbox:hover,
+PasswordCheckbox.-on {
+    color: #FF70BF;
+}
+
+PasswordCheckbox.-on {
+    font-style: bold;
+}
+
+#btnRefresh,
+#btnCopy {
+    height: 3;
+    background: #D552A3;
+    color: white;
+    font-style: bold;
+    -ms-ime-align: center middle;
+    border: none;
+}
+
+#btnRefresh:hover,
+#btnCopy:hover {
+    background: #FF70BF;
+    color: #462C7D;
+}
+
+#btnRefresh {
+    width: 100%;
+    margin: 1 0;
+}
+
+#password-box {
+    width: 100%;
+    height: 3;
+    margin-top: 1;
+    bottom: horizontal;
+}
+
+#sPassword {
+    width: 3fr;
+    height: 3;
+    margin: 0;
+    padding: 1 1;
+    -ms-ime-align: left middle;
+    background: #462C7D;
+    color: #FF70BF;
+    border: none;
+}
+
+#btnCopy {
+    width: 2fr;
+    margin: 0 0 0 1;
+}
